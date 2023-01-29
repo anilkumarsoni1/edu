@@ -54,3 +54,27 @@
     line-height: 20px;
     color: green;
 }
+.aside{
+    height: 400px;
+    width: 200px;
+    background-color: rgba(8, 8, 8, 0.76);
+}
+.aside .asideul .asideli{
+    list-style: none;
+    padding: 10px 0px;
+    border-bottom: solid 1px red;
+
+}
+.aside .asideul .asideli a{
+    color: WHITE;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 10px 0px 10px 10px;
+    
+}
+.aside .asideul .asideli a:hover{
+    color: rgb(240, 240, 10);
+    background-color: orange;
+    display: block;
+}
