@@ -57,7 +57,7 @@
 .aside{
     height: 400px;
     width: 200px;
-    background-color: rgba(8, 8, 8, 0.76);
+    background-color: rgba(8, 8, 8, 0.623);
 }
 .aside .asideul .asideli{
     list-style: none;
@@ -77,4 +77,27 @@
     color: rgb(240, 240, 10);
     background-color: orange;
     display: block;
+}
+.container{
+    height: 200px;
+    width: 100%;
+    
+}
+.container .card{
+    height: 160px;
+    width: 160px;
+    background-color: rgba(10, 10, 10, 0.836);
+    float: left;
+    margin-top: 20px;
+    margin-left: 15%;
+    border-radius: 12px;
+}
+.container .card .c{
+    color: rgb(236, 171, 7);
+    text-align: center;
+    margin-top: 12px;
+}
+.container .card:hover{
+  background-color: rgba(0, 0, 0, 0.527);
+  transition: 0.4s ease-in-out;
 }
